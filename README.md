@@ -2,6 +2,8 @@
 
 ![Cancha Sintética Deportiva](src/images/icon-cc-2.png)
 
+![Cancha Sintética Deportiva Demo](src/images/demo.png)
+
 Una landing page moderna y responsiva para promocionar una cancha sintética deportiva. Este proyecto está desarrollado con React y Vite, y utiliza EmailJS para manejar los formularios de contacto.
 
 ## Tabla de Contenidos
