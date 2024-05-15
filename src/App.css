@@ -1,0 +1,58 @@
+.navbar {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease !important;
+}
+
+.navbar.navbar-scrolled {
+  background-color: #198754 !important; /* Cambia el color de fondo del navbar al hacer scroll */
+}
+
+.carousel-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-cuevita {
+    flex-direction: column-reverse;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .contact-cuevita-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="email"]::placeholder,
+  textarea[type="text"]::placeholder {
+    font-size: 10px;
+  }
+  .logo-cancha-cuevita {
+    width: 55%;
+  }
+}
